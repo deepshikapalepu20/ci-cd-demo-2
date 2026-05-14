@@ -25,4 +25,4 @@ jobs:
         run: docker push ${{ secrets.DOCKER_USERNAME }}/myapp:latest
 
       - name: Deploy Step
-        run: echo "Deploying application..."
+        run: echo "Deploying application...." 
